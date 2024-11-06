@@ -12,7 +12,7 @@ public class CountTrue {
 
     public static void main(String[] args) {
         CountTrue ct = new CountTrue();
-        int tmp = 0;
+        int tmp = 1;
         System.out.println(ct.countTrue(new boolean[]{true, false, false, true, false}));
         System.out.println(ct.countTrue(new boolean[]{false, false, false, false}));
         System.out.println(ct.countTrue(new boolean[]{}));
